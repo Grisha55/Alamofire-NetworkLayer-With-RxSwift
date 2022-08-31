@@ -15,6 +15,7 @@
 		BEAFDABC28BF5DD4005C6CE0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFDABB28BF5DD4005C6CE0 /* Constants.swift */; };
 		BEAFDABE28BF61E9005C6CE0 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFDABD28BF61E9005C6CE0 /* APIRouter.swift */; };
 		BEAFDAC128BF70CE005C6CE0 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFDAC028BF70CE005C6CE0 /* Post.swift */; };
+		BEAFDAC328BF7338005C6CE0 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFDAC228BF7338005C6CE0 /* APIError.swift */; };
 		DB8FAEFDA9AA09A54DE52872 /* Pods_NetworkLayerWithAlamofireAndRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D2844B7BC8D8FFC120D633 /* Pods_NetworkLayerWithAlamofireAndRxSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		BEAFDABB28BF5DD4005C6CE0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BEAFDABD28BF61E9005C6CE0 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
 		BEAFDAC028BF70CE005C6CE0 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BEAFDAC228BF7338005C6CE0 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				BEAFDABB28BF5DD4005C6CE0 /* Constants.swift */,
 				BEAFDABD28BF61E9005C6CE0 /* APIRouter.swift */,
+				BEAFDAC228BF7338005C6CE0 /* APIError.swift */,
 			);
 			path = NetworkLayer;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				BEAFDAC128BF70CE005C6CE0 /* Post.swift in Sources */,
 				BEAFDAA928BF5B21005C6CE0 /* SceneDelegate.swift in Sources */,
 				BEAFDABC28BF5DD4005C6CE0 /* Constants.swift in Sources */,
+				BEAFDAC328BF7338005C6CE0 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
