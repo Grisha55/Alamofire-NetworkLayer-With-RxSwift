@@ -12,6 +12,7 @@
 		BEAFDAAB28BF5B21005C6CE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFDAAA28BF5B21005C6CE0 /* ViewController.swift */; };
 		BEAFDAB028BF5B25005C6CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAFDAAF28BF5B25005C6CE0 /* Assets.xcassets */; };
 		BEAFDAB328BF5B25005C6CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAFDAB128BF5B25005C6CE0 /* LaunchScreen.storyboard */; };
+		BEAFDABC28BF5DD4005C6CE0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFDABB28BF5DD4005C6CE0 /* Constants.swift */; };
 		DB8FAEFDA9AA09A54DE52872 /* Pods_NetworkLayerWithAlamofireAndRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D2844B7BC8D8FFC120D633 /* Pods_NetworkLayerWithAlamofireAndRxSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		BEAFDAAF28BF5B25005C6CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEAFDAB228BF5B25005C6CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEAFDAB428BF5B25005C6CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAFDABB28BF5DD4005C6CE0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,6 @@
 				9019790F1A680E83666E52BE /* Pods-NetworkLayerWithAlamofireAndRxSwift.debug.xcconfig */,
 				36ED3304C88013034E9D34B1 /* Pods-NetworkLayerWithAlamofireAndRxSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -71,6 +72,7 @@
 		BEAFDAA528BF5B21005C6CE0 /* NetworkLayerWithAlamofireAndRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				BEAFDABA28BF5DC5005C6CE0 /* NetworkLayer */,
 				BEAFDAA628BF5B21005C6CE0 /* AppDelegate.swift */,
 				BEAFDAA828BF5B21005C6CE0 /* SceneDelegate.swift */,
 				BEAFDAAA28BF5B21005C6CE0 /* ViewController.swift */,
@@ -79,6 +81,14 @@
 				BEAFDAB428BF5B25005C6CE0 /* Info.plist */,
 			);
 			path = NetworkLayerWithAlamofireAndRxSwift;
+			sourceTree = "<group>";
+		};
+		BEAFDABA28BF5DC5005C6CE0 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BEAFDABB28BF5DD4005C6CE0 /* Constants.swift */,
+			);
+			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
 		DD4CD7474A0CE8C6E554C78B /* Frameworks */ = {
@@ -206,6 +216,7 @@
 				BEAFDAAB28BF5B21005C6CE0 /* ViewController.swift in Sources */,
 				BEAFDAA728BF5B21005C6CE0 /* AppDelegate.swift in Sources */,
 				BEAFDAA928BF5B21005C6CE0 /* SceneDelegate.swift in Sources */,
+				BEAFDABC28BF5DD4005C6CE0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
