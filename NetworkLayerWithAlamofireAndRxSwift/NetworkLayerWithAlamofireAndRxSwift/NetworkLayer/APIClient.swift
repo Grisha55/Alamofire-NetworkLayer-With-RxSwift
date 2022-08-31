@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 import RxSwift
 
-class ApiClient {
+class APIClient {
   
   static func getPosts(userId: Int) -> Observable<[Post]> {
     return request(APIRouter.getPosts(userId: userId))
