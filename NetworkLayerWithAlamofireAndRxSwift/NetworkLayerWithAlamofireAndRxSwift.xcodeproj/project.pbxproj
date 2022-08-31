@@ -14,6 +14,7 @@
 		BEAFDAB328BF5B25005C6CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAFDAB128BF5B25005C6CE0 /* LaunchScreen.storyboard */; };
 		BEAFDABC28BF5DD4005C6CE0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFDABB28BF5DD4005C6CE0 /* Constants.swift */; };
 		BEAFDABE28BF61E9005C6CE0 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFDABD28BF61E9005C6CE0 /* APIRouter.swift */; };
+		BEAFDAC128BF70CE005C6CE0 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFDAC028BF70CE005C6CE0 /* Post.swift */; };
 		DB8FAEFDA9AA09A54DE52872 /* Pods_NetworkLayerWithAlamofireAndRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D2844B7BC8D8FFC120D633 /* Pods_NetworkLayerWithAlamofireAndRxSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		BEAFDAB428BF5B25005C6CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEAFDABB28BF5DD4005C6CE0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BEAFDABD28BF61E9005C6CE0 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		BEAFDAC028BF70CE005C6CE0 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				BEAFDABA28BF5DC5005C6CE0 /* NetworkLayer */,
+				BEAFDABF28BF70BB005C6CE0 /* Model */,
 				BEAFDAA628BF5B21005C6CE0 /* AppDelegate.swift */,
 				BEAFDAA828BF5B21005C6CE0 /* SceneDelegate.swift */,
 				BEAFDAAA28BF5B21005C6CE0 /* ViewController.swift */,
@@ -92,6 +95,14 @@
 				BEAFDABD28BF61E9005C6CE0 /* APIRouter.swift */,
 			);
 			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		BEAFDABF28BF70BB005C6CE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEAFDAC028BF70CE005C6CE0 /* Post.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DD4CD7474A0CE8C6E554C78B /* Frameworks */ = {
@@ -219,6 +230,7 @@
 				BEAFDAAB28BF5B21005C6CE0 /* ViewController.swift in Sources */,
 				BEAFDABE28BF61E9005C6CE0 /* APIRouter.swift in Sources */,
 				BEAFDAA728BF5B21005C6CE0 /* AppDelegate.swift in Sources */,
+				BEAFDAC128BF70CE005C6CE0 /* Post.swift in Sources */,
 				BEAFDAA928BF5B21005C6CE0 /* SceneDelegate.swift in Sources */,
 				BEAFDABC28BF5DD4005C6CE0 /* Constants.swift in Sources */,
 			);
